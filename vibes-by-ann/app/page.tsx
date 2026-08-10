@@ -2,5 +2,5 @@
 import { redirect } from 'next/navigation';
 
 export default function Page() {
-  redirect('/vibes-by-ann-smenu-abuja');
+  redirect('/Vibes-by-Ann\'s-Menu-Abuja');
 }
