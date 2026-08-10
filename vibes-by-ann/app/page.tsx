@@ -1,14 +1,6 @@
 'use client';
-import dynamic from 'next/dynamic';
+import { redirect } from 'next/navigation';
 
-const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
-  ssr: false,
-});
-
-export default function Home() {
-  return (
-    <main className="w-full min-h-screen">
-      <PdfViewer url="/vba.pdf" />
-    </main>
-  );
+export default function Page() {
+  redirect('/vibes-by-ann-smenu-abuja');
 }
