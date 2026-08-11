@@ -8,7 +8,7 @@ const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
 export default function Home() {
   return (
     <main className="w-full min-h-screen">
-      <PdfViewer url="/vba3.pdf" />
+      <PdfViewer url="/vba.pdf" />
     </main>
   );
 }
