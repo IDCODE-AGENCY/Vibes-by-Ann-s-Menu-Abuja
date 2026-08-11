@@ -8,7 +8,7 @@ const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
 export default function VibesByAnnPage() {
   return (
     <main className="w-full min-h-screen">
-      <PdfViewer url="/vba.pdf" />
+      <PdfViewer url="/vba3.pdf" />
     </main>
   );
 }
