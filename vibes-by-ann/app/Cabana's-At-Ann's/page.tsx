@@ -8,7 +8,7 @@ const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
 export default function Home() {
   return (
     <main className="w-full min-h-screen">
-      <PdfViewer url="/cam.pdf" />
+      <PdfViewer url="/cam1.pdf" />
     </main>
   );
 }
